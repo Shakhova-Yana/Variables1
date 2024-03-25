@@ -35,5 +35,10 @@ public class Main {
         var weightSecondBoxer = 82.7;
         var totalWeightTwoBoxers = weightFirstBoxer + weightSecondBoxer;
         System.out.println(totalWeightTwoBoxers);
+
+        var differenceWeightTwoBoxers = weightSecondBoxer - weightFirstBoxer;
+        System.out.println(differenceWeightTwoBoxers);
+        var remainderDivisionBetweenTwoWeights = weightSecondBoxer % weightFirstBoxer;
+        System.out.println(remainderDivisionBetweenTwoWeights);
     }
 }
