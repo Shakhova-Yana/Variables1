@@ -30,5 +30,10 @@ public class Main {
         System.out.println(frog);
         frog = ((frog * 10) / 3.5) + 4;
         System.out.println(frog);
+
+        var weightFirstBoxer = 78.2;
+        var weightSecondBoxer = 82.7;
+        var totalWeightTwoBoxers = weightFirstBoxer + weightSecondBoxer;
+        System.out.println(totalWeightTwoBoxers);
     }
 }
