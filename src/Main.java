@@ -40,5 +40,13 @@ public class Main {
         System.out.println(differenceWeightTwoBoxers);
         var remainderDivisionBetweenTwoWeights = weightSecondBoxer % weightFirstBoxer;
         System.out.println(remainderDivisionBetweenTwoWeights);
+
+        var totalNumberHoursOfEmployees = 640;
+        var hoursOfOneEmployee = 8;
+        var numbeOfCompanyEmployees = totalNumberHoursOfEmployees / hoursOfOneEmployee;
+        System.out.println("Всего работников в компании - " +numbeOfCompanyEmployees+ " человек");
+        var moreEmployees = numbeOfCompanyEmployees + 94;
+        var hoursDividedBetweenEmployees = totalNumberHoursOfEmployees / moreEmployees;
+        System.out.println("Если в компании работает " + moreEmployees + " человеке, то всего " +  hoursDividedBetweenEmployees + " часа работы могут быть поделены между сотрудниками");
     }
 }
